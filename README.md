@@ -115,6 +115,7 @@ CC
 ```
 
 <img width="694" height="454" alt="image" src="https://github.com/user-attachments/assets/9466fdb4-b770-491b-86e4-bc0911903bac" />
+
 ```
 if 'City' in CC.columns:
     CC = CC.drop('City', axis=1)
@@ -232,6 +233,7 @@ plt.show()
 ```
 
 <img width="798" height="606" alt="image" src="https://github.com/user-attachments/assets/94fdc382-cb7a-42b8-8f5f-926a35047841" />
+
 ```
 pd.concat([CC,new],axis = 1)
 ```
